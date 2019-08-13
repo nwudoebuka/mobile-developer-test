@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F40032923CDAA1133B0362 /* Pods_SterlingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A78B3BD3D9AF13B1F7AA338C /* Pods_SterlingTest.framework */; };
+		718C441422FDD87200F9412D /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C441322FDD87200F9412D /* Toast.swift */; };
+		718C441622FE122F00F9412D /* LeagueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C441522FE122F00F9412D /* LeagueViewController.swift */; };
+		718C441822FE142900F9412D /* LeagueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C441722FE142900F9412D /* LeagueTableViewCell.swift */; };
+		718C441A22FE171800F9412D /* LeagueVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C441922FE171800F9412D /* LeagueVCExtension.swift */; };
+		718C441F22FEFF8000F9412D /* SQLiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C441E22FEFF8000F9412D /* SQLiteModel.swift */; };
+		718C442122FF087A00F9412D /* LeagueMotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442022FF087A00F9412D /* LeagueMotherViewController.swift */; };
+		718C442322FF0B1500F9412D /* LeagueElements.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718C442222FF0B1500F9412D /* LeagueElements.storyboard */; };
+		718C442522FF0BC300F9412D /* LeagueFixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442422FF0BC300F9412D /* LeagueFixturesViewController.swift */; };
+		718C442722FF0E2F00F9412D /* LeagueTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442622FF0E2F00F9412D /* LeagueTeamsViewController.swift */; };
+		718C442922FFD03700F9412D /* StandingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442822FFD03700F9412D /* StandingsHelper.swift */; };
+		718C442B2300566D00F9412D /* TodayFixtureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442A2300566C00F9412D /* TodayFixtureViewController.swift */; };
+		718C442D23005DEB00F9412D /* TodayFixtureVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442C23005DEB00F9412D /* TodayFixtureVCExtension.swift */; };
+		718C442F2300A6B200F9412D /* TodayFixtureTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C442E2300A6B200F9412D /* TodayFixtureTableTableViewCell.swift */; };
+		718C44322300ABDD00F9412D /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44312300ABDD00F9412D /* TeamsCollectionViewCell.swift */; };
+		718C44342300AC1E00F9412D /* TeamsVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44332300AC1E00F9412D /* TeamsVCExtension.swift */; };
+		718C44362301681A00F9412D /* TodayFixtureHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44352301681A00F9412D /* TodayFixtureHelper.swift */; };
+		718C44392301C50700F9412D /* TeamsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44382301C50700F9412D /* TeamsHelper.swift */; };
+		718C443B2301FF8200F9412D /* TSSlidingUpPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C443A2301FF8200F9412D /* TSSlidingUpPanelManager.swift */; };
+		718C443D2301FFCD00F9412D /* TeamInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C443C2301FFCD00F9412D /* TeamInfoViewController.swift */; };
+		718C443F2302A5C500F9412D /* SlideTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C443E2302A5C500F9412D /* SlideTabbarController.swift */; };
+		718C44412302B5B300F9412D /* TeamInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44402302B5B300F9412D /* TeamInfoCell.swift */; };
+		718C44432302BAA200F9412D /* TeamInfoVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44422302BAA200F9412D /* TeamInfoVCExtension.swift */; };
+		718C44452302DCB400F9412D /* TeamSquadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44442302DCB300F9412D /* TeamSquadHelper.swift */; };
+		718C44472303523B00F9412D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44462303523A00F9412D /* MainTabBarViewController.swift */; };
+		7192D04B22FC7EE700874562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D04A22FC7EE700874562 /* AppDelegate.swift */; };
+		7192D04D22FC7EE700874562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D04C22FC7EE700874562 /* ViewController.swift */; };
+		7192D05022FC7EE700874562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192D04E22FC7EE700874562 /* Main.storyboard */; };
+		7192D05322FC7EE700874562 /* SterlingTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7192D05122FC7EE700874562 /* SterlingTest.xcdatamodeld */; };
+		7192D05522FC7EEA00874562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7192D05422FC7EEA00874562 /* Assets.xcassets */; };
+		7192D05822FC7EEB00874562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192D05622FC7EEB00874562 /* LaunchScreen.storyboard */; };
+		7192D06322FC7EED00874562 /* SterlingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D06222FC7EED00874562 /* SterlingTestTests.swift */; };
+		7192D06E22FC7EED00874562 /* SterlingTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D06D22FC7EED00874562 /* SterlingTestUITests.swift */; };
+		7192D08022FC85AC00874562 /* CompetitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D07F22FC85AC00874562 /* CompetitionViewController.swift */; };
+		7192D08322FC894F00874562 /* CompetionionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D08222FC894F00874562 /* CompetionionVCExtension.swift */; };
+		7192D08822FC8AA100874562 /* CompetetionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D08722FC8AA100874562 /* CompetetionTableViewCell.swift */; };
+		7192D08A22FCB41B00874562 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D08922FCB41B00874562 /* UIViewControllerExtension.swift */; };
+		7192D08D22FCB5F900874562 /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D08C22FCB5F800874562 /* ApiCalls.swift */; };
+		7192D08F22FCB60A00874562 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D08E22FCB60A00874562 /* Constants.swift */; };
+		7192D09122FCBBA600874562 /* CompetitionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D09022FCBBA600874562 /* CompetitionHelper.swift */; };
+		853984C50444EF29AAE28E28 /* Pods_SterlingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6862CEB2524DEE3D1D94503F /* Pods_SterlingTestTests.framework */; };
+		D7892A7C2046D7FF398686B8 /* Pods_SterlingTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD3B871327F0A58D0F12D43 /* Pods_SterlingTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7192D05F22FC7EEC00874562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7192D03F22FC7EE600874562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7192D04622FC7EE700874562;
+			remoteInfo = SterlingTest;
+		};
+		7192D06A22FC7EED00874562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7192D03F22FC7EE600874562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7192D04622FC7EE700874562;
+			remoteInfo = SterlingTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFB09E364C1822C3C781B22 /* Pods-SterlingTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTestUITests/Pods-SterlingTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E7DD22C61D55EF6B0C089DB /* Pods-SterlingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTest/Pods-SterlingTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6862CEB2524DEE3D1D94503F /* Pods_SterlingTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SterlingTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718C441322FDD87200F9412D /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		718C441522FE122F00F9412D /* LeagueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewController.swift; sourceTree = "<group>"; };
+		718C441722FE142900F9412D /* LeagueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTableViewCell.swift; sourceTree = "<group>"; };
+		718C441922FE171800F9412D /* LeagueVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVCExtension.swift; sourceTree = "<group>"; };
+		718C441E22FEFF8000F9412D /* SQLiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteModel.swift; sourceTree = "<group>"; };
+		718C442022FF087A00F9412D /* LeagueMotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueMotherViewController.swift; sourceTree = "<group>"; };
+		718C442222FF0B1500F9412D /* LeagueElements.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LeagueElements.storyboard; sourceTree = "<group>"; };
+		718C442422FF0BC300F9412D /* LeagueFixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueFixturesViewController.swift; sourceTree = "<group>"; };
+		718C442622FF0E2F00F9412D /* LeagueTeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTeamsViewController.swift; sourceTree = "<group>"; };
+		718C442822FFD03700F9412D /* StandingsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsHelper.swift; sourceTree = "<group>"; };
+		718C442A2300566C00F9412D /* TodayFixtureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixtureViewController.swift; sourceTree = "<group>"; };
+		718C442C23005DEB00F9412D /* TodayFixtureVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixtureVCExtension.swift; sourceTree = "<group>"; };
+		718C442E2300A6B200F9412D /* TodayFixtureTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixtureTableTableViewCell.swift; sourceTree = "<group>"; };
+		718C44312300ABDD00F9412D /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		718C44332300AC1E00F9412D /* TeamsVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsVCExtension.swift; sourceTree = "<group>"; };
+		718C44352301681A00F9412D /* TodayFixtureHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayFixtureHelper.swift; sourceTree = "<group>"; };
+		718C44372301C0A500F9412D /* Birdge-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birdge-header.h"; sourceTree = "<group>"; };
+		718C44382301C50700F9412D /* TeamsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsHelper.swift; sourceTree = "<group>"; };
+		718C443A2301FF8200F9412D /* TSSlidingUpPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSlidingUpPanelManager.swift; sourceTree = "<group>"; };
+		718C443C2301FFCD00F9412D /* TeamInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoViewController.swift; sourceTree = "<group>"; };
+		718C443E2302A5C500F9412D /* SlideTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTabbarController.swift; sourceTree = "<group>"; };
+		718C44402302B5B300F9412D /* TeamInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoCell.swift; sourceTree = "<group>"; };
+		718C44422302BAA200F9412D /* TeamInfoVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoVCExtension.swift; sourceTree = "<group>"; };
+		718C44442302DCB300F9412D /* TeamSquadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSquadHelper.swift; sourceTree = "<group>"; };
+		718C44462303523A00F9412D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		7192D04722FC7EE700874562 /* SterlingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SterlingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7192D04A22FC7EE700874562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7192D04C22FC7EE700874562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7192D04F22FC7EE700874562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7192D05222FC7EE700874562 /* SterlingTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SterlingTest.xcdatamodel; sourceTree = "<group>"; };
+		7192D05422FC7EEA00874562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7192D05722FC7EEB00874562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7192D05922FC7EEB00874562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192D05E22FC7EEC00874562 /* SterlingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SterlingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7192D06222FC7EED00874562 /* SterlingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SterlingTestTests.swift; sourceTree = "<group>"; };
+		7192D06422FC7EED00874562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192D06922FC7EED00874562 /* SterlingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SterlingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7192D06D22FC7EED00874562 /* SterlingTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SterlingTestUITests.swift; sourceTree = "<group>"; };
+		7192D06F22FC7EED00874562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7192D07F22FC85AC00874562 /* CompetitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionViewController.swift; sourceTree = "<group>"; };
+		7192D08222FC894F00874562 /* CompetionionVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetionionVCExtension.swift; sourceTree = "<group>"; };
+		7192D08722FC8AA100874562 /* CompetetionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetetionTableViewCell.swift; sourceTree = "<group>"; };
+		7192D08922FCB41B00874562 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		7192D08C22FCB5F800874562 /* ApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
+		7192D08E22FCB60A00874562 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7192D09022FCBBA600874562 /* CompetitionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionHelper.swift; sourceTree = "<group>"; };
+		9DAD13A52CC54941169B1ED6 /* Pods-SterlingTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTestUITests/Pods-SterlingTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A78B3BD3D9AF13B1F7AA338C /* Pods_SterlingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SterlingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8E9EDF82283CD00EC23CC0 /* Pods-SterlingTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTestTests/Pods-SterlingTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D826254B9AD7BF6555B98201 /* Pods-SterlingTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTestTests/Pods-SterlingTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E88CFBAD88930C23D80741C0 /* Pods-SterlingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SterlingTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SterlingTest/Pods-SterlingTest.release.xcconfig"; sourceTree = "<group>"; };
+		EFD3B871327F0A58D0F12D43 /* Pods_SterlingTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SterlingTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7192D04422FC7EE700874562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F40032923CDAA1133B0362 /* Pods_SterlingTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D05B22FC7EEC00874562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853984C50444EF29AAE28E28 /* Pods_SterlingTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D06622FC7EED00874562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7892A7C2046D7FF398686B8 /* Pods_SterlingTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB86E432EFB959B5801CECB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A78B3BD3D9AF13B1F7AA338C /* Pods_SterlingTest.framework */,
+				6862CEB2524DEE3D1D94503F /* Pods_SterlingTestTests.framework */,
+				EFD3B871327F0A58D0F12D43 /* Pods_SterlingTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		718C441B22FE9B8300F9412D /* Db */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Db;
+			sourceTree = "<group>";
+		};
+		718C44302300ABB600F9412D /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				718C44312300ABDD00F9412D /* TeamsCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		7192D03E22FC7EE600874562 = {
+			isa = PBXGroup;
+			children = (
+				7192D04922FC7EE700874562 /* SterlingTest */,
+				7192D06122FC7EEC00874562 /* SterlingTestTests */,
+				7192D06C22FC7EED00874562 /* SterlingTestUITests */,
+				7192D04822FC7EE700874562 /* Products */,
+				B1558B761E09A7B0BEE2E378 /* Pods */,
+				3FB86E432EFB959B5801CECB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7192D04822FC7EE700874562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7192D04722FC7EE700874562 /* SterlingTest.app */,
+				7192D05E22FC7EEC00874562 /* SterlingTestTests.xctest */,
+				7192D06922FC7EED00874562 /* SterlingTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7192D04922FC7EE700874562 /* SterlingTest */ = {
+			isa = PBXGroup;
+			children = (
+				718C44372301C0A500F9412D /* Birdge-header.h */,
+				718C44302300ABB600F9412D /* CollectionViewCells */,
+				718C441B22FE9B8300F9412D /* Db */,
+				7192D08B22FCB5E000874562 /* WebService */,
+				7192D08422FC8A1B00874562 /* TableviewCellClasses */,
+				7192D08122FC890600874562 /* Extensions */,
+				7192D07E22FC7F5B00874562 /* View */,
+				7192D07D22FC7F2C00874562 /* Lib */,
+				7192D07C22FC7F2100874562 /* HelperClasses */,
+				7192D07B22FC7F1700874562 /* Controllers */,
+				7192D04A22FC7EE700874562 /* AppDelegate.swift */,
+				7192D05422FC7EEA00874562 /* Assets.xcassets */,
+				7192D05922FC7EEB00874562 /* Info.plist */,
+				7192D05122FC7EE700874562 /* SterlingTest.xcdatamodeld */,
+			);
+			path = SterlingTest;
+			sourceTree = "<group>";
+		};
+		7192D06122FC7EEC00874562 /* SterlingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7192D06222FC7EED00874562 /* SterlingTestTests.swift */,
+				7192D06422FC7EED00874562 /* Info.plist */,
+			);
+			path = SterlingTestTests;
+			sourceTree = "<group>";
+		};
+		7192D06C22FC7EED00874562 /* SterlingTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7192D06D22FC7EED00874562 /* SterlingTestUITests.swift */,
+				7192D06F22FC7EED00874562 /* Info.plist */,
+			);
+			path = SterlingTestUITests;
+			sourceTree = "<group>";
+		};
+		7192D07B22FC7F1700874562 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7192D04C22FC7EE700874562 /* ViewController.swift */,
+				7192D07F22FC85AC00874562 /* CompetitionViewController.swift */,
+				718C441522FE122F00F9412D /* LeagueViewController.swift */,
+				718C442022FF087A00F9412D /* LeagueMotherViewController.swift */,
+				718C442422FF0BC300F9412D /* LeagueFixturesViewController.swift */,
+				718C442622FF0E2F00F9412D /* LeagueTeamsViewController.swift */,
+				718C442A2300566C00F9412D /* TodayFixtureViewController.swift */,
+				718C443C2301FFCD00F9412D /* TeamInfoViewController.swift */,
+				718C443E2302A5C500F9412D /* SlideTabbarController.swift */,
+				718C44462303523A00F9412D /* MainTabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7192D07C22FC7F2100874562 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7192D09022FCBBA600874562 /* CompetitionHelper.swift */,
+				718C442822FFD03700F9412D /* StandingsHelper.swift */,
+				718C44352301681A00F9412D /* TodayFixtureHelper.swift */,
+				718C44382301C50700F9412D /* TeamsHelper.swift */,
+				718C44442302DCB300F9412D /* TeamSquadHelper.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		7192D07D22FC7F2C00874562 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				718C441322FDD87200F9412D /* Toast.swift */,
+				718C441E22FEFF8000F9412D /* SQLiteModel.swift */,
+				718C443A2301FF8200F9412D /* TSSlidingUpPanelManager.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7192D07E22FC7F5B00874562 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7192D05622FC7EEB00874562 /* LaunchScreen.storyboard */,
+				7192D04E22FC7EE700874562 /* Main.storyboard */,
+				718C442222FF0B1500F9412D /* LeagueElements.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7192D08122FC890600874562 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7192D08222FC894F00874562 /* CompetionionVCExtension.swift */,
+				7192D08922FCB41B00874562 /* UIViewControllerExtension.swift */,
+				718C441922FE171800F9412D /* LeagueVCExtension.swift */,
+				718C442C23005DEB00F9412D /* TodayFixtureVCExtension.swift */,
+				718C44332300AC1E00F9412D /* TeamsVCExtension.swift */,
+				718C44422302BAA200F9412D /* TeamInfoVCExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7192D08422FC8A1B00874562 /* TableviewCellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7192D08722FC8AA100874562 /* CompetetionTableViewCell.swift */,
+				718C441722FE142900F9412D /* LeagueTableViewCell.swift */,
+				718C442E2300A6B200F9412D /* TodayFixtureTableTableViewCell.swift */,
+				718C44402302B5B300F9412D /* TeamInfoCell.swift */,
+			);
+			path = TableviewCellClasses;
+			sourceTree = "<group>";
+		};
+		7192D08B22FCB5E000874562 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				7192D08C22FCB5F800874562 /* ApiCalls.swift */,
+				7192D08E22FCB60A00874562 /* Constants.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		B1558B761E09A7B0BEE2E378 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E7DD22C61D55EF6B0C089DB /* Pods-SterlingTest.debug.xcconfig */,
+				E88CFBAD88930C23D80741C0 /* Pods-SterlingTest.release.xcconfig */,
+				CA8E9EDF82283CD00EC23CC0 /* Pods-SterlingTestTests.debug.xcconfig */,
+				D826254B9AD7BF6555B98201 /* Pods-SterlingTestTests.release.xcconfig */,
+				9DAD13A52CC54941169B1ED6 /* Pods-SterlingTestUITests.debug.xcconfig */,
+				1FFB09E364C1822C3C781B22 /* Pods-SterlingTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7192D04622FC7EE700874562 /* SterlingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192D07222FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTest" */;
+			buildPhases = (
+				26C61BA710DE9ACE68AB3002 /* [CP] Check Pods Manifest.lock */,
+				7192D04322FC7EE700874562 /* Sources */,
+				7192D04422FC7EE700874562 /* Frameworks */,
+				7192D04522FC7EE700874562 /* Resources */,
+				410092F06C591CD83F10ACE6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SterlingTest;
+			productName = SterlingTest;
+			productReference = 7192D04722FC7EE700874562 /* SterlingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7192D05D22FC7EEC00874562 /* SterlingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192D07522FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTestTests" */;
+			buildPhases = (
+				2BBD034C1306172C8AC7CC29 /* [CP] Check Pods Manifest.lock */,
+				7192D05A22FC7EEC00874562 /* Sources */,
+				7192D05B22FC7EEC00874562 /* Frameworks */,
+				7192D05C22FC7EEC00874562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7192D06022FC7EEC00874562 /* PBXTargetDependency */,
+			);
+			name = SterlingTestTests;
+			productName = SterlingTestTests;
+			productReference = 7192D05E22FC7EEC00874562 /* SterlingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7192D06822FC7EED00874562 /* SterlingTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7192D07822FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTestUITests" */;
+			buildPhases = (
+				8D280C3FB147F48BD114C7FE /* [CP] Check Pods Manifest.lock */,
+				7192D06522FC7EED00874562 /* Sources */,
+				7192D06622FC7EED00874562 /* Frameworks */,
+				7192D06722FC7EED00874562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7192D06B22FC7EED00874562 /* PBXTargetDependency */,
+			);
+			name = SterlingTestUITests;
+			productName = SterlingTestUITests;
+			productReference = 7192D06922FC7EED00874562 /* SterlingTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7192D03F22FC7EE600874562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nuture Tech";
+				TargetAttributes = {
+					7192D04622FC7EE700874562 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7192D05D22FC7EEC00874562 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7192D04622FC7EE700874562;
+					};
+					7192D06822FC7EED00874562 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7192D04622FC7EE700874562;
+					};
+				};
+			};
+			buildConfigurationList = 7192D04222FC7EE600874562 /* Build configuration list for PBXProject "SterlingTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7192D03E22FC7EE600874562;
+			productRefGroup = 7192D04822FC7EE700874562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7192D04622FC7EE700874562 /* SterlingTest */,
+				7192D05D22FC7EEC00874562 /* SterlingTestTests */,
+				7192D06822FC7EED00874562 /* SterlingTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7192D04522FC7EE700874562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718C442322FF0B1500F9412D /* LeagueElements.storyboard in Resources */,
+				7192D05822FC7EEB00874562 /* LaunchScreen.storyboard in Resources */,
+				7192D05522FC7EEA00874562 /* Assets.xcassets in Resources */,
+				7192D05022FC7EE700874562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D05C22FC7EEC00874562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D06722FC7EED00874562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26C61BA710DE9ACE68AB3002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SterlingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBD034C1306172C8AC7CC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SterlingTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		410092F06C591CD83F10ACE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SterlingTest/Pods-SterlingTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/SVGKit/SVGKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SterlingTest/Pods-SterlingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D280C3FB147F48BD114C7FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SterlingTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7192D04322FC7EE700874562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718C44392301C50700F9412D /* TeamsHelper.swift in Sources */,
+				7192D08022FC85AC00874562 /* CompetitionViewController.swift in Sources */,
+				718C44342300AC1E00F9412D /* TeamsVCExtension.swift in Sources */,
+				718C44472303523B00F9412D /* MainTabBarViewController.swift in Sources */,
+				718C441422FDD87200F9412D /* Toast.swift in Sources */,
+				718C443F2302A5C500F9412D /* SlideTabbarController.swift in Sources */,
+				718C44322300ABDD00F9412D /* TeamsCollectionViewCell.swift in Sources */,
+				718C442722FF0E2F00F9412D /* LeagueTeamsViewController.swift in Sources */,
+				7192D08822FC8AA100874562 /* CompetetionTableViewCell.swift in Sources */,
+				718C442B2300566D00F9412D /* TodayFixtureViewController.swift in Sources */,
+				718C44432302BAA200F9412D /* TeamInfoVCExtension.swift in Sources */,
+				7192D08D22FCB5F900874562 /* ApiCalls.swift in Sources */,
+				718C443D2301FFCD00F9412D /* TeamInfoViewController.swift in Sources */,
+				718C442F2300A6B200F9412D /* TodayFixtureTableTableViewCell.swift in Sources */,
+				718C441822FE142900F9412D /* LeagueTableViewCell.swift in Sources */,
+				718C441F22FEFF8000F9412D /* SQLiteModel.swift in Sources */,
+				718C44412302B5B300F9412D /* TeamInfoCell.swift in Sources */,
+				7192D08322FC894F00874562 /* CompetionionVCExtension.swift in Sources */,
+				718C443B2301FF8200F9412D /* TSSlidingUpPanelManager.swift in Sources */,
+				7192D04D22FC7EE700874562 /* ViewController.swift in Sources */,
+				718C442122FF087A00F9412D /* LeagueMotherViewController.swift in Sources */,
+				7192D04B22FC7EE700874562 /* AppDelegate.swift in Sources */,
+				718C44452302DCB400F9412D /* TeamSquadHelper.swift in Sources */,
+				718C442522FF0BC300F9412D /* LeagueFixturesViewController.swift in Sources */,
+				718C441622FE122F00F9412D /* LeagueViewController.swift in Sources */,
+				718C441A22FE171800F9412D /* LeagueVCExtension.swift in Sources */,
+				718C44362301681A00F9412D /* TodayFixtureHelper.swift in Sources */,
+				718C442922FFD03700F9412D /* StandingsHelper.swift in Sources */,
+				7192D08A22FCB41B00874562 /* UIViewControllerExtension.swift in Sources */,
+				7192D09122FCBBA600874562 /* CompetitionHelper.swift in Sources */,
+				7192D05322FC7EE700874562 /* SterlingTest.xcdatamodeld in Sources */,
+				718C442D23005DEB00F9412D /* TodayFixtureVCExtension.swift in Sources */,
+				7192D08F22FCB60A00874562 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D05A22FC7EEC00874562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7192D06322FC7EED00874562 /* SterlingTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7192D06522FC7EED00874562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7192D06E22FC7EED00874562 /* SterlingTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7192D06022FC7EEC00874562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7192D04622FC7EE700874562 /* SterlingTest */;
+			targetProxy = 7192D05F22FC7EEC00874562 /* PBXContainerItemProxy */;
+		};
+		7192D06B22FC7EED00874562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7192D04622FC7EE700874562 /* SterlingTest */;
+			targetProxy = 7192D06A22FC7EED00874562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7192D04E22FC7EE700874562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7192D04F22FC7EE700874562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7192D05622FC7EEB00874562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7192D05722FC7EEB00874562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7192D07022FC7EED00874562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7192D07122FC7EED00874562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7192D07322FC7EED00874562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7DD22C61D55EF6B0C089DB /* Pods-SterlingTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ebuka/Desktop/upload/SterlingTest/SterlingTest/Birdge-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7192D07422FC7EED00874562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88CFBAD88930C23D80741C0 /* Pods-SterlingTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Ebuka/Desktop/upload/SterlingTest/SterlingTest/Birdge-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7192D07622FC7EED00874562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8E9EDF82283CD00EC23CC0 /* Pods-SterlingTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingTest.app/SterlingTest";
+			};
+			name = Debug;
+		};
+		7192D07722FC7EED00874562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D826254B9AD7BF6555B98201 /* Pods-SterlingTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingTest.app/SterlingTest";
+			};
+			name = Release;
+		};
+		7192D07922FC7EED00874562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAD13A52CC54941169B1ED6 /* Pods-SterlingTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SterlingTest;
+			};
+			name = Debug;
+		};
+		7192D07A22FC7EED00874562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFB09E364C1822C3C781B22 /* Pods-SterlingTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = SterlingTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.SterlingTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SterlingTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7192D04222FC7EE600874562 /* Build configuration list for PBXProject "SterlingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192D07022FC7EED00874562 /* Debug */,
+				7192D07122FC7EED00874562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192D07222FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192D07322FC7EED00874562 /* Debug */,
+				7192D07422FC7EED00874562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192D07522FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192D07622FC7EED00874562 /* Debug */,
+				7192D07722FC7EED00874562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7192D07822FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7192D07922FC7EED00874562 /* Debug */,
+				7192D07A22FC7EED00874562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7192D05122FC7EE700874562 /* SterlingTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7192D05222FC7EE700874562 /* SterlingTest.xcdatamodel */,
+			);
+			currentVersion = 7192D05222FC7EE700874562 /* SterlingTest.xcdatamodel */;
+			path = SterlingTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7192D03F22FC7EE600874562 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SterlingTestUITests {
+  umbrella header "Pods-SterlingTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
