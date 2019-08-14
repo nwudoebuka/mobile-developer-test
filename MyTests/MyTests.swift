@@ -1,16 +1,14 @@
 //
-//  SterlingTestTests.swift
-//  SterlingTestTests
+//  MyTests.swift
+//  MyTests
 //
-//  Created by Nwudo Ebuka on 8/8/19.
+//  Created by Nwudo Ebuka on 8/14/19.
 //  Copyright © 2019 Nuture Tech. All rights reserved.
 //
 
 import XCTest
 @testable import SterlingTest
-
-class SterlingTestTests: XCTestCase {
-
+class MyTests: XCTestCase {
     func testApiKey(){
         let API_KEY : String = "84e2580c41714c338186242bd17f7fb2"
         let API_KEY_IN_USE:String = Constants.API_KEY

@@ -32,6 +32,7 @@
 		718C44432302BAA200F9412D /* TeamInfoVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44422302BAA200F9412D /* TeamInfoVCExtension.swift */; };
 		718C44452302DCB400F9412D /* TeamSquadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44442302DCB300F9412D /* TeamSquadHelper.swift */; };
 		718C44472303523B00F9412D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44462303523A00F9412D /* MainTabBarViewController.swift */; };
+		718C44522303EE7A00F9412D /* MyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718C44512303EE7A00F9412D /* MyTests.swift */; };
 		7192D04B22FC7EE700874562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D04A22FC7EE700874562 /* AppDelegate.swift */; };
 		7192D04D22FC7EE700874562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7192D04C22FC7EE700874562 /* ViewController.swift */; };
 		7192D05022FC7EE700874562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7192D04E22FC7EE700874562 /* Main.storyboard */; };
@@ -52,6 +53,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		718C44542303EE7A00F9412D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7192D03F22FC7EE600874562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7192D04622FC7EE700874562;
+			remoteInfo = SterlingTest;
+		};
 		7192D05F22FC7EEC00874562 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7192D03F22FC7EE600874562 /* Project object */;
@@ -97,6 +105,9 @@
 		718C44422302BAA200F9412D /* TeamInfoVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamInfoVCExtension.swift; sourceTree = "<group>"; };
 		718C44442302DCB300F9412D /* TeamSquadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamSquadHelper.swift; sourceTree = "<group>"; };
 		718C44462303523A00F9412D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		718C444F2303EE7900F9412D /* MyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		718C44512303EE7A00F9412D /* MyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTests.swift; sourceTree = "<group>"; };
+		718C44532303EE7A00F9412D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7192D04722FC7EE700874562 /* SterlingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SterlingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7192D04A22FC7EE700874562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7192D04C22FC7EE700874562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +138,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		718C444C2303EE7900F9412D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7192D04422FC7EE700874562 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,12 +197,22 @@
 			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
+		718C44502303EE7A00F9412D /* MyTests */ = {
+			isa = PBXGroup;
+			children = (
+				718C44512303EE7A00F9412D /* MyTests.swift */,
+				718C44532303EE7A00F9412D /* Info.plist */,
+			);
+			path = MyTests;
+			sourceTree = "<group>";
+		};
 		7192D03E22FC7EE600874562 = {
 			isa = PBXGroup;
 			children = (
 				7192D04922FC7EE700874562 /* SterlingTest */,
 				7192D06122FC7EEC00874562 /* SterlingTestTests */,
 				7192D06C22FC7EED00874562 /* SterlingTestUITests */,
+				718C44502303EE7A00F9412D /* MyTests */,
 				7192D04822FC7EE700874562 /* Products */,
 				B1558B761E09A7B0BEE2E378 /* Pods */,
 				3FB86E432EFB959B5801CECB /* Frameworks */,
@@ -197,6 +225,7 @@
 				7192D04722FC7EE700874562 /* SterlingTest.app */,
 				7192D05E22FC7EEC00874562 /* SterlingTestTests.xctest */,
 				7192D06922FC7EED00874562 /* SterlingTestUITests.xctest */,
+				718C444F2303EE7900F9412D /* MyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -338,6 +367,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		718C444E2303EE7900F9412D /* MyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718C44562303EE7A00F9412D /* Build configuration list for PBXNativeTarget "MyTests" */;
+			buildPhases = (
+				718C444B2303EE7900F9412D /* Sources */,
+				718C444C2303EE7900F9412D /* Frameworks */,
+				718C444D2303EE7900F9412D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718C44552303EE7A00F9412D /* PBXTargetDependency */,
+			);
+			name = MyTests;
+			productName = MyTests;
+			productReference = 718C444F2303EE7900F9412D /* MyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7192D04622FC7EE700874562 /* SterlingTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7192D07222FC7EED00874562 /* Build configuration list for PBXNativeTarget "SterlingTest" */;
@@ -405,6 +452,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Nuture Tech";
 				TargetAttributes = {
+					718C444E2303EE7900F9412D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7192D04622FC7EE700874562;
+					};
 					7192D04622FC7EE700874562 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -434,11 +485,19 @@
 				7192D04622FC7EE700874562 /* SterlingTest */,
 				7192D05D22FC7EEC00874562 /* SterlingTestTests */,
 				7192D06822FC7EED00874562 /* SterlingTestUITests */,
+				718C444E2303EE7900F9412D /* MyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		718C444D2303EE7900F9412D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7192D04522FC7EE700874562 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -566,6 +625,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		718C444B2303EE7900F9412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718C44522303EE7A00F9412D /* MyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7192D04322FC7EE700874562 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -625,6 +692,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		718C44552303EE7A00F9412D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7192D04622FC7EE700874562 /* SterlingTest */;
+			targetProxy = 718C44542303EE7A00F9412D /* PBXContainerItemProxy */;
+		};
 		7192D06022FC7EEC00874562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7192D04622FC7EE700874562 /* SterlingTest */;
@@ -657,6 +729,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		718C44572303EE7A00F9412D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = MyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.MyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingTest.app/SterlingTest";
+			};
+			name = Debug;
+		};
+		718C44582303EE7A00F9412D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMPG82456;
+				INFOPLIST_FILE = MyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tech.nuture.MyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SterlingTest.app/SterlingTest";
+			};
+			name = Release;
+		};
 		7192D07022FC7EED00874562 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -902,6 +1014,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		718C44562303EE7A00F9412D /* Build configuration list for PBXNativeTarget "MyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718C44572303EE7A00F9412D /* Debug */,
+				718C44582303EE7A00F9412D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7192D04222FC7EE600874562 /* Build configuration list for PBXProject "SterlingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
